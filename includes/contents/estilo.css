@@ -1,0 +1,87 @@
+
+svg {height: 60vw;} 
+        path {fill:transparent; transition: .6s  fill; }
+        path:hover {fill:rgba(14, 169, 61, 0.508);} 
+
+ #container{
+    position:relative;
+    border-width:2px;
+    width:700px;
+    height: 400px;
+    background-color:white;
+    float: left;
+    cursor: zoom-in;
+ 
+   
+}
+#valores{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    left:0px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    font-family: 'Montserrat';font-size: 15px;
+    color:#316262;
+    margin:20px;
+   
+   
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  font-size: 8pt;
+  
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 4px;
+  width:40%;
+  font-size:12px;
+  
+}
+
+#customers tr:nth-child(even){background-color: white;
+  width:40%;
+  
+
+
+}
+
+
+#customers th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: #316262;
+  color: white;
+  width:40%;
+  
+}
+.controls {
+  background-color: #316262;
+   border: none;
+  color: white;
+  padding: 5px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+

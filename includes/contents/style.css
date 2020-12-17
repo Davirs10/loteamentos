@@ -1,0 +1,14 @@
+
+.row{
+    margin:7px 9px;
+    width:25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row input, .row select{
+    width:150px;
+    float:right;
+}
+.readonly {
+    background-color:#DDD;
+}
+
